@@ -18,20 +18,19 @@ h1,h2,h3,h4,h5{
 
 .nav{
     display: flex;
-    width: 100%;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    border: 1px solid red;
 }
 
 
 
 .logo{
-    flex: 15%;
-    margin-left: 10%;
-    font-size: 13px;
+    margin-left: 15%;
+    padding: 10px;
 }
+
+
 .logo img{
     width: 90px;
 }
@@ -41,16 +40,16 @@ h1,h2,h3,h4,h5{
     text-decoration: none;
     color: black;
     font-weight: 600;
-    padding: 10px;
+    padding:10px;
 }
 
 .menu{
-    flex:75%;
+    flex:60%;
     text-align: right;
+    margin-right: 15%;
 }
 
 #download-cv{
-    margin-right: 15%;
     margin-left: 2%;
     color: white;
     background: black;
