@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Poppins', sans-serif;;
+}
+
+
+
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid red;
+}
+
+
+
+.logo{
+    flex: 15%;
+    margin-left: 10%;
+    font-size: 13px;
+}
+.logo img{
+    width: 90px;
+}
+
+.menu a{
+    font-family: 'Poppins' , sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.menu{
+    flex:75%;
+    text-align: right;
+}
+
+#download-cv{
+    margin-right: 15%;
+    margin-left: 2%;
+    color: white;
+    background: black;
+}
+
+.option:hover{
+    text-decoration: underline;
+}
+
+#download-cv:hover{
+    color: black;
+    background: white;
+    text-decoration: underline;
+}
