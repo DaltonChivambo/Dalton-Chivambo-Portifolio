@@ -26,7 +26,8 @@ h1,h2,h3,h4,h5{
 
 
 .logo{
-    margin-left: 15%;
+    flex: 10%;
+    margin-left: 10%;
     padding: 10px;
 }
 
@@ -40,7 +41,7 @@ h1,h2,h3,h4,h5{
     text-decoration: none;
     color: black;
     font-weight: 600;
-    padding:10px;
+    padding:20px;
 }
 
 .menu{
@@ -52,15 +53,18 @@ h1,h2,h3,h4,h5{
 #download-cv{
     margin-left: 2%;
     color: white;
-    background: black;
+    background: #ef3340;
+    padding: 10px;
 }
 
 .option:hover{
     text-decoration: underline;
+    color: #ef3340;
 }
 
 #download-cv:hover{
-    color: black;
+    color: #ef3340;
     background: white;
     text-decoration: underline;
+    border: 1px solid #ef3340;
 }
