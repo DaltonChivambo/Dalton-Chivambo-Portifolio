@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body{
-    margin: 0;
     font-family: 'Mulish', sans-serif;
     font-size: 14px;
 }
@@ -26,7 +27,8 @@ h1,h2,h3,h4,h5{
 
 
 .logo{
-    margin-left: 15%;
+    flex: 10%;
+    margin-left: 10%;
     padding: 10px;
 }
 
@@ -38,29 +40,129 @@ h1,h2,h3,h4,h5{
 .menu a{
     font-family: 'Poppins' , sans-serif;
     text-decoration: none;
-    color: black;
+    color: #3919bc;
     font-weight: 600;
-    padding:10px;
+    padding:20px;
 }
 
 .menu{
     flex:60%;
     text-align: right;
-    margin-right: 15%;
+    margin-right: 10%;
 }
 
 #download-cv{
-    margin-left: 2%;
+    margin-left: 3%;
     color: white;
-    background: black;
+    background: #d35339;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
 }
 
-.option:hover{
+.menu a:hover{
     text-decoration: underline;
+    color: #d14124;
+    border-top:15px solid #3919bc ;
 }
 
 #download-cv:hover{
-    color: black;
-    background: white;
-    text-decoration: underline;
+    color: white;
+    background: #700ef9;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+
+/*Header*/
+.header-first{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    background-image: linear-gradient(90deg,#aa4c39,#5c1fb1);
+}
+
+
+.content-header-rigth{
+    flex: 50%;
+    margin-right: 10%;
+    /* background: #8354c5; */
+    
+}
+
+.content-header-rigth img{
+    width: 100%;
+    min-width: 700px ;
+}
+
+.content-header-left{
+    margin-left: 10%;
+    flex: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-header-left .card h1{
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.content-header-left .card h2{
+    font-weight: 500;
+    font-size: 15px;
+    color: gray;
+}
+
+.content-header-left .card h3{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.content-header-left .card h4{
+    font-weight: 500;
+    font-size: 14px;
+    color: gray;
+}
+
+.card{
+    position: relative;
+    background-image: linear-gradient(#d14124,white);
+    width: 80%;
+    height: 200px;
+    box-shadow: 0 15px 50px rgb(0, 0, 0.3);
+    /* border-radius: 15px; */
+    transition: all 0.4s ease-in-out;
+}
+
+.card:hover{
+    height: 500px;
+}
+
+
+.pb{
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    background-image: url('img/pro123.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.9);
+    transition: all 0.4s ease-in-out;
+}
+
+.card:hover .pb{
+    height: 250px;
+    width: 250px;
+}
+
+.info{
+    
 }
