@@ -68,6 +68,7 @@ h1,h2,h3,h4,h5{
 }
 
 
+
 /*Header*/
 .home{
     display: flex;
@@ -108,7 +109,7 @@ h1,h2,h3,h4,h5{
     margin: auto;
     background-size: 200% 200%;
     animation: animated-gradient 2s linear infinite;
-    box-shadow: 5px 10px rgb(61, 56, 56);
+    box-shadow: 5px 8px rgb(61, 56, 56);
 }
 @keyframes animated-gradient{
     25%{
@@ -166,16 +167,19 @@ h1,h2,h3,h4,h5{
 .home .content-header-left .card-header .card-icon-home #linkedin:hover{
     color: #1DA1F2;
 }
-.home .content-header-left .card-header .contact-btn-home{
+.home .content-header-left .card-header .btn_contact_me-home{
     display: inline-block;
     padding: 12px 50px;
     border: 1px solid #f2f2f2;
     color: #f2f2f2;
     text-decoration: none;
+    transition: .3s linear;
+}
+.home .content-header-left .card-header .btn_contact_me-home:hover {
+    box-shadow: 4px 4px rgb(61, 56, 56);
 }
 
-
-/*Section*/
+/*Section About*/
 .about{
     padding-top: 220px;
     display: flex;
@@ -242,17 +246,17 @@ h1,h2,h3,h4,h5{
     font-style: italic;
     padding-bottom: 15px;
 }
-.about .right-about .button-about a{
+.about .right-about .btn_learn_more-about a{
     text-decoration: none;
     color: white;
     padding: 13px 50px;
     background: #5c1fb1;
-    transition: .3s linear;
+    transition: .3s ease;
 }
-.about .right-about .button-about{
+.about .right-about .btn_learn_more-about{
     margin-top: 100px;
 }
-.about .right-about .button-about a:hover{
+.about .right-about .btn_learn_more-about a:hover{
     border: 3px solid #5c1fb1;
     background: white;
     color: #aa4c39;
