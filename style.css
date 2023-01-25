@@ -255,7 +255,7 @@ h1,h2,h3,h4,h5{
     text-decoration: none;
     color: white;
     padding: 13px 50px;
-    background: #5c1fb1;
+    background-image: linear-gradient(90deg,#aa4c39,#5c1fb1);
     transition: .3s ease;
     border-radius: 20px;
     box-shadow: 3px 3px;
