@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-header-left{
+    margin-top: 20%;
+    margin-left: 10%;
+    flex: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+}
+
+.content-header-left .card h1{
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.content-header-left .card h2{
+    font-weight: 500;
+    font-size: 15px;
+    color: gray;
+}
+
+.content-header-left .card h3{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.content-header-left .card h4{
+    font-weight: 500;
+    font-size: 14px;
+    color: gray;
+}
+
+.card{
+    position: relative;
+    background-image: linear-gradient(#d14124,white);
+    width: 80%;
+    height: 200px;
+    box-shadow: 0 15px 50px rgb(0, 0, 0.3);
+    /* border-radius: 15px; */
+    transition: all 0.4s ease-in-out;
+}
+
+.card:hover{
+    height: 500px;
+}
+
+
+.pb{
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    background-image: url('/img/pro123.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.9);
+    transition: all 0.4s ease-in-out;
+}
+
+.card:hover .pb{
+    height: 250px;
+    width: 250px;
+}
+
+.info{
+    
+}
