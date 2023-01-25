@@ -4,13 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    letter-spacing: .2px;
 }
-
 body{
     font-family: 'Mulish', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
 }
-
 h1,h2,h3,h4,h5{
     font-family: 'Poppins', sans-serif;
     color: black;
@@ -28,35 +27,27 @@ h1,h2,h3,h4,h5{
     background: white;
     width: 100%;
 }
-
-
-
-.logo{
+.nav .logo{
     flex: 10%;
     margin-left: 10%;
     padding: 10px;
 }
-
-
-.logo img{
+.nav .logo img{
     width: 90px;
 }
-
-.menu a{
+.nav .menu a{
     font-family: 'Poppins' , sans-serif;
     text-decoration: none;
     color: #3919bc;
     font-weight: 600;
     padding:20px;
 }
-
-.menu{
+.nav .menu{
     flex:60%;
     text-align: right;
     margin-right: 10%;
 }
-
-#download-cv{
+.nav .menu #download-cv{
     margin-left: 3%;
     color: white;
     background: #d35339;
@@ -64,14 +55,12 @@ h1,h2,h3,h4,h5{
     border-radius: 10px;
     border: none;
 }
-
-.menu a:hover{
+.nav .menu a:hover{
     text-decoration: underline;
     color: #d14124;
     border-top:15px solid #3919bc ;
 }
-
-#download-cv:hover{
+.nav .menu #download-cv:hover{
     color: white;
     background: #700ef9;
     text-decoration: none;
@@ -88,20 +77,16 @@ h1,h2,h3,h4,h5{
     padding-top: 70px;
     padding-bottom: 100px;
 }
-
-
-.content-header-rigth{
+.home .content-header-rigth{
     flex: 50%;
     margin-right: 10%;
     padding-top: 4%;        
 }
-
-.content-header-rigth img{
+.home .content-header-rigth img{
     width: 100%;
     min-width: 700px ;
 }
-
-.content-header-left{
+.home .content-header-left{
     margin-left: 10%;
     padding-top: 4%;
     flex: 30%;
@@ -112,13 +97,11 @@ h1,h2,h3,h4,h5{
     border-radius: 8px;
     text-align: center;
 }
-
-.content-header-left .card-header{
+.home .content-header-left .card-header{
     background: transparent;
     padding: 60px 40px;
 }
-
-.content-header-left .card-header .pic{
+.home .content-header-left .card-header .pic{
     display: inline-block;
     padding: 8px;
     background: linear-gradient(130deg, #74b9ff,#e66767);
@@ -127,8 +110,6 @@ h1,h2,h3,h4,h5{
     animation: animated-gradient 2s linear infinite;
     box-shadow: 5px 10px rgb(61, 56, 56);
 }
-
-
 @keyframes animated-gradient{
     25%{
         background-position: left bottom;
@@ -144,65 +125,54 @@ h1,h2,h3,h4,h5{
     }
 }
 
-.pic img{
+.home .content-header-left .card-header .pic img{
     display: block;
     height: 250px;
     max-width: 250px;
 }
-
-.name{
+.home .content-header-left .card-header .name-home{
     color: #f2f2f2;
     font-size: 28px;
     font-weight: 900;
     margin: 5px 0;
 }
-
-.description{
+.home .content-header-left .card-header .description-home{
     font-size: 18px;
     color: #f2f2f2;
 }
-
-.card-icon{
+.home .content-header-left .card-header .card-icon-home{
     display: flex;
     justify-content: center;
     margin: 20px 0;
     padding: 5px;
 }
-
-.card-icon a{
+.home .content-header-left .card-header .card-icon-home a{
     color: #f2f2f2;
     width: 56px;
     font-size: 22px;
     transition: .3s linear;
 }
-
-.card-icon a:hover{
+.home .content-header-left .card-header .card-icon-home a:hover{
     background: #f2f2f2;
     color: #3919bc;
     padding: 5px;
 }
-
-.card-icon #github:hover{
+.home .content-header-left .card-header .card-icon-home #github:hover{
     color: black;
 }
-
-.card-icon #facebook:hover{
+.home .content-header-left .card-header .card-icon-home #facebook:hover{
     color: #4267B2;
 }
-
-.card-icon #linkedin:hover{
+.home .content-header-left .card-header .card-icon-home #linkedin:hover{
     color: #1DA1F2;
 }
-
-.contact-btn{
+.home .content-header-left .card-header .contact-btn-home{
     display: inline-block;
     padding: 12px 50px;
     border: 1px solid #f2f2f2;
     color: #f2f2f2;
     text-decoration: none;
 }
-
-
 
 
 /* Section/About */
@@ -212,46 +182,38 @@ h1,h2,h3,h4,h5{
     justify-content: center;
     align-items: center;
 }
-
-.left-about{
+.about .left-about{
     margin-left: 10%;
     flex: 20%;
 }
-.right-about{
+.about .right-about{
     margin-right: 10%;
     margin-left: 5%;
     flex: 60%;
 }
-
-
-.left-about img{
+.about .left-about img{
     width: 350px;
     height: 400px;
     box-shadow: 5px 5px #5a447a;
 }
-
-.right-about .name-about{
+.about .right-about .name-about{
     border-bottom: 1px solid rgba(0, 0, 0, .1);
     padding-bottom: 35px;
     margin-bottom: 32px;
     line-height: 0;
 }
-
-.right-about .name-about span{
+.about .right-about .name-about span{
     display: inline-block;
     padding-top:10px;
     font-weight: 600;
     font-family: 'Poppins';
 }
-.right-about span.description-about{
+.about .right-about span.description-about{
     font-style: italic;
     color: #767676;
     margin-top: 10px;
 }
-
-
-
-.right-about .name-about h3 .bg-about{
+.about .right-about .name-about h3 .bg-about{
     position:absolute;
     left: 0;
     top: 0;
@@ -263,8 +225,7 @@ h1,h2,h3,h4,h5{
     line-height: 0;
     user-select: none;
 }
-
-.right-about .name-about h3{
+.about .right-about .name-about h3{
     letter-spacing: .2px;
     text-transform: uppercase;
     font-weight: 900;
@@ -272,32 +233,26 @@ h1,h2,h3,h4,h5{
     position: relative;
     color: #000;
 }
-
-.right-about .text-about{
+.about .right-about .text-about{
     width: 100%;
     margin-bottom: 23px;
 }
-
-.right-about .text-about p{
+.about .right-about .text-about p{
     margin-bottom: 13px;
     font-style: italic;
     padding-bottom: 15px;
 }
-
-.right-about .button-about a{
+.about .right-about .button-about a{
     text-decoration: none;
     color: white;
     padding: 13px 50px;
-    /* background-image: linear-gradient(130deg,#aa4c39,#5c1fb1); */
     background: #5c1fb1;
     transition: .3s linear;
 }
-
-.right-about .button-about{
+.about .right-about .button-about{
     margin-top: 100px;
 }
-
-.right-about .button-about a:hover{
+.about .right-about .button-about a:hover{
     border: 3px solid #5c1fb1;
     background: white;
     color: #aa4c39;
