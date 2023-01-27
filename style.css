@@ -346,6 +346,7 @@ h1,h2,h3,h4,h5{
     box-shadow: 0 0 20px rgba(105, 17, 128, 0.2);
     margin-bottom: 2%;
     transition: .3s linear;
+    background: #ffffff;
 }
 .project .main_card-project #left_card-main_card-project{
     margin-left: 0%;
@@ -417,7 +418,7 @@ h1,h2,h3,h4,h5{
     display: block;
     color: white;
     margin-left: 10%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
 .footer .copyright b{
     font-size: 13px;
