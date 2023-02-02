@@ -1,8 +1,9 @@
 # Dalton Chivambo Portifolio
 Dalton Chivambo's Portifolio
 
-### NOTE:
-      This portfolio, for now, is not responsive yet, I recommend using desktop devices for a better experience.
+   ### NOTE:
+      This portfolio, for now, is not responsive yet.
+      I recommend using desktop devices for a better experience.
 <br> </br>
 
 
