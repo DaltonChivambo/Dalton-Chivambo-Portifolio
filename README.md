@@ -12,7 +12,7 @@ Dalton Chivambo's Portifolio
 <br> </br>
 #### Header
 <a href="#">
-  <img width=94% src="https://github.com/DaltonChivambo/Dalton-Chivambo-Portifolio/blob/master/img/project_screen/header.png" alt="Header Section, Dalton Chivambo Portifolio"/>
+  <img width=94% src="https://github.com/DaltonChivambo/Dalton-Chivambo-Portifolio/blob/master/img/project_screen/header_section.png" alt="Header Section, Dalton Chivambo Portifolio"/>
 </a>
 
 <br> </br>
