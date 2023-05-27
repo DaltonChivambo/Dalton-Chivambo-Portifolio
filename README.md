@@ -7,7 +7,7 @@ Dalton Chivambo's Portifolio
       I recommend using desktop devices for a better experience.
       
   ### Access the link below to access my portifolio
-  [daltonchivambo.netlify.app](https://daltonchivambo.netlify.app/)
+  <a href="https://daltonchivambo.netlify.app/" target="_blank">daltonchivambo.netlify.app</a>
 
 <br> </br>
 #### Header
