@@ -8,7 +8,7 @@ Dalton Chivambo's Portifolio
       
   ### Access the link below to access my portifolio
 <a href="daltonchivambo.netlify.app">daltonchivambo.netlify.app</a>
-[![My Website](daltonchivambo.netlify.app)](https://www.java.com/en/)
+[![My Website](daltonchivambo.netlify.app)](daltonchivambo.netlify.app)
 
   
 <br> </br>
